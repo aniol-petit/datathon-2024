@@ -43,6 +43,7 @@ The goal is to create an AVM capable of predicting the most accurate property pr
 A CSV submission based on the test dataset with:
 - Listing.ListingId: Unique identifier for each property.
 - Listing.Price.ClosePrice: Predicted sale price.
+  
 The evaluation metrics include:
 - Mean Squared Error (MSE)
 - Mean Absolute Error (MAE)
