@@ -1,4 +1,4 @@
-# Real Estate Property Price Prediction in Illinois
+# Illinois Real Estate Price Prediction: A Machine Learning and Data Mining Approach
 
 ## 1. Description
 We are Jan Aguiló, Pol Bonet, Pau Chaves and Aniol Petit, from the Mathematical Engineering in Data Science degree at Universitat Pompeu Fabra (UPF). We are really excited to have participated in this edition of the Datathon FME (2024) and proud of the project we have worked on. Huge thanks to Restb.ai for providing us with their real-world challenge in the real estate industry, which we found really interesting.
