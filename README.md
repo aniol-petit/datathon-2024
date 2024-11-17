@@ -50,6 +50,11 @@ The evaluation metrics include:
 The winning solution is not solely based on the best metrics but also on:
 Depth of data analysis, justification of decisions, supported by data.
 
+## 4. Files Description
+<ul>
+ <li>data_cleaning.ipynb</li> 
+ <li>training_model.ipynb</li> 
+</ul>
 
 
 
