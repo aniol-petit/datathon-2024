@@ -1,9 +1,9 @@
 # Real Estate Property Price Prediction in Illinois
 
 ## 1. Description
-We are a team of four students from the Mathematical Engineering in Data Science program at Universitat Pompeu Fabra (UPF)—Pau, Aniol, Pol, and Jan. This project was developed as part of the Datathon FME 2024 where restb.ai presented real-world challenge in the real estate industry.
+We are Jan Aguiló, Pol Bonet, Pau Chaves and Aniol Petit, from the Mathematical Engineering in Data Science degree at Universitat Pompeu Fabra (UPF). We are really excited to have participated in this edition of the Datathon FME (2024) and proud of the project we have worked on. Huge thanks to Restb.ai for providing us with their real-world challenge in the real estate industry, which we found really interesting.
 
-The goal of the challenge was to build an Automated Valuation Model (AVM) to predict property prices in Illinois, primarily in the Chicago metropolitan area, using historical data and property features. AVMs are crucial tools for real estate agents, allowing them to estimate the best possible selling price for a property based on available data.
+To put you into context, the main goal of the challenge was to build an Automated Valuation Model (AVM) so as to predict property prices in the state of Illinois using historical data and property features. As we have seen during the process, AVMs are crucial tools for real estate agents, allowing them to estimate the best possible selling price for a property based on available data.
 
 ## 2. Dataset
 The dataset consists of real estate properties in Illinois for the last year, segmented into:
@@ -35,3 +35,40 @@ Key attributes include:
 Derived from the US Census Bureau API, this data enriches listings with geographical and socioeconomic insights, including:
 - Location.Address.CensusBlock and Location.Address.CensusTract: Key identifiers for census regions.
 - Location.GIS.Latitude and Location.GIS.Longitude: Geographical coordinates of the properties.
+
+
+## 3. Challenge
+The goal is to create an AVM capable of predicting the most accurate property prices, providing:
+
+A CSV submission based on the test dataset with:
+- Listing.ListingId: Unique identifier for each property.
+- Listing.Price.ClosePrice: Predicted sale price.
+The evaluation metrics include:
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+The winning solution is not solely based on the best metrics but also on:
+Depth of data analysis, justification of decisions, supported by data.
+
+## 4. Process
+The workflow involved the following steps:
+### 1. Data Cleaning:
+
+Removed irrelevant rows and columns with excessive missing values.
+Imputed missing data using medians and logical replacements.
+Scaled numeric features, ensuring the target variable (Listing.Price.ClosePrice) remained unscaled for interpretability.
+
+### 2. Feature Engineering:
+
+Added interaction features (e.g., Bathrooms_per_Bedroom) to capture underlying patterns in the data.
+
+### 3. Model Selection:
+
+Chose Random Forest for its robustness and ability to handle diverse data types.
+Performed hyperparameter tuning for key parameters like n_estimators, max_depth, and min_samples_split.
+
+### 4. Validation:
+
+Split the training data into 80% training and 20% validation.
+Evaluated the model using MSE, MAE, and R² metrics on the validation set.
+
+
