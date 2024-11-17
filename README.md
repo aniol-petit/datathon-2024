@@ -52,8 +52,9 @@ Depth of data analysis, justification of decisions, supported by data.
 
 ## 4. Files Description
 <ul>
- <li>data_cleaning.ipynb</li> 
- <li>training_model.ipynb</li> 
+ <li><b>data_cleaning.ipynb<b>: Jupyter notebook where we performed the Exploratory Data Analysis. We used different cells to handle every different feature</li> 
+ <li><b>training_model.ipynb<b>: Jupyter notebook where we trained our machine learning model and evaluated its performance</li> 
+  <li><b>REPORT<b>: pdf file where we explain every decision we made for handling the data processing, choosing the model, etc.</li>
 </ul>
 
 
