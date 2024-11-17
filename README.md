@@ -51,11 +51,9 @@ The winning solution is not solely based on the best metrics but also on:
 Depth of data analysis, justification of decisions, supported by data.
 
 ## 4. Files Description
-<ul>
- <li>**data_cleaning.ipynb**: Jupyter notebook where we performed the Exploratory Data Analysis. We used different cells to handle every different feature</li> 
- <li>**training_model.ipynb**: Jupyter notebook where we trained our machine learning model and evaluated its performance</li> 
-  <li>**REPORT**: pdf file where we explain every decision we made for handling the data processing, choosing the model, etc.</li>
-</ul>
+- **data_cleaning.ipynb**: Jupyter notebook where we performed the Exploratory Data Analysis. We used different cells to handle every different feature.
+- **training_model.ipynb**: Jupyter notebook where we trained our machine learning model and evaluated its performance.
+- **REPORT**: pdf file where we explain every decision we made for handling the data processing, choosing the model, etc.
 
 
 
